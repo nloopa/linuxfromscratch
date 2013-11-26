@@ -4,7 +4,8 @@
 # http://www.linuxfromscratch.org/lfs/view/development/chapter02/mounting.html
 #
 
-export LFS=/mnt/lfs
+. common.sh
+chk_lfs
 
 FS_TYPE=reiserfs
 DISK=/dev/sda5
@@ -28,9 +29,9 @@ function _lfs_refs() {
 
 function _sys_settings() {
 	echo -e "Default settings:"
-	echo -e "\tFilesystem	: $FS_TYPE"
-	echo -e "\tPartition 	: $DISK"
-	echo -e "\tMount Point	: $LFS"
+	echo -e "\tFilesystem		: $FS_TYPE"
+	echo -e "\tPartition 		: $DISK"
+	echo -e "\tMount Point (LFS)	: $LFS"
 	echo
 }
 

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-LFS=/mnt/lfs
+. common.sh
+chk_lfs
+
 CONFIG=meta
 
 function _alert() {
