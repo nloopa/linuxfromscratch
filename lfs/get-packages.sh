@@ -15,6 +15,7 @@ function _alert() {
 	echo -e "\t    http://www.linuxfromscratch.org/lfs/view/development/md5sums"
 	echo -e "\tComplete lists:"
 	echo -e "\t    http://www.linuxfromscratch.org/lfs/view/development/chapter03/packages.html"
+	echo -e "\t    http://www.linuxfromscratch.org/lfs/view/development/chapter03/patches.html"
 	echo
 }
 
