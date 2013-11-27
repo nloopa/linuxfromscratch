@@ -1,5 +1,5 @@
 
 $LFS
 ----
-Should setup LFS manually before run the scripts.
+Should setup/export $LFS manually before run the scripts.
 
